@@ -1,0 +1,26 @@
+first terminal:
+
+-cd C:\Users\roshi\mini_project\trail\Smart-AI-Resume-Analyzer-main
+-python -m venv venv
+-venv\Scripts\activate
+-if wants: (venv) C:\Users\roshi\mini_project\trail\Smart-AI-Resume-Analyzer-main>pip install -r requirements.txt
+-(venv) C:\Users\roshi\mini_project\trail\Smart-AI-Resume-Analyzer-main>uvicorn main:app --reload
+
+second terminal:
+
+-cd C:\Users\roshi\mini_project\trail\Smart-AI-Resume-Analyzer-main
+-(avoid) C:\Users\roshi\mini_project\trail\Smart-AI-Resume-Analyzer-main>python -m venv venv
+-C:\Users\roshi\mini_project\trail\Smart-AI-Resume-Analyzer-main>venv\Scripts\activate
+-(venv) C:\Users\roshi\mini_project\trail\Smart-AI-Resume-Analyzer-main>pip install -r requirements.txt
+-python -m spacy download en_core_web_sm
+-(venv) C:\Users\roshi\mini_project\trail\Smart-AI-Resume-Analyzer-main> streamlit run app.py
+
+third:
+-cd C:\Users\roshi\LanguageTool-stable\LanguageTool-6.6
+-C:\Users\roshi\LanguageTool-stable\LanguageTool-6.6>python -m venv venv
+-C:\Users\roshi\LanguageTool-stable\LanguageTool-6.6>venv\Scripts\activate
+-(venv) C:\Users\roshi\LanguageTool-stable\LanguageTool-6.6>"C:\Program Files\java\jdk-21\bin\java.exe" -cp languagetool.jar org.languagetool.server.HTTPServer --port 8081
+
+
+
+C:\Users\roshi\mini_project\AI_Interview_Simulator(only phase 1 n 2)
